@@ -66,9 +66,9 @@ Screenshots
 Ready to play sketch
 --------------------
 
-![screenshot1.png](screenshot1.png "Ready to play sketch")
+![screenshot-1.png](https://github.com/weegreenblobbie/p5js-player/blob/master/screenshot-1.png?raw=true "Ready to play sketch")
 
 Sketch playing
 --------------
 
-![screenshot1.png](screenshot1.png "Sketch is playing")
+![screenshot-2.png](https://github.com/weegreenblobbie/p5js-player/blob/master/screenshot-2.png?raw=true "Sketch is playing")
