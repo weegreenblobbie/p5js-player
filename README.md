@@ -5,22 +5,18 @@ An html widget implemented in javascript for playing p5js sketches.  It supports
 following features:
 
 * Play & Stop buttons
-* Multiple sketches may be placed on a single page
+* Multiple sketches may be placed on a single webpage or blog post
 * Easy to include in blog posts, sketch appears where placed
 
 How to use the widget
 =====================
 
 1. Upload `p5js-player.js` to your website.
-
-2. Include the script on your webpage or blog post with code like:
-
+1. Include the script on your webpage or blog post with code like:
 ```html
     <script type="text/javascript" src="path/to/p5js-player.js"></script>
 ```
-
-3. Place widget on your webpage or blog post with a `div` element:
-
+1. Place widget on your webpage or blog post with a `div` element:
 ```html
     <div class="p5js-player" width="400" height="250" sketch="local/001_bouncing_points/index.html"></div>
 ```
@@ -28,8 +24,8 @@ How to use the widget
 The `div` tag must contain the following attributes:
 
 * `class="p5js-player"`, this is what identifes the div element is the player widget
-* `width`, the width of the sketch canvas
-* `height`, the height of the skeetch canvs, reserves space
+* `width`, the width of the sketch canvas, reserves space
+* `height`, the height of the sketch canvs, reserves space
 * `sketch`, the url to a `.html` file with your p5.js sketch
 
 Your sketch .html
@@ -70,9 +66,9 @@ Screenshots
 Ready to play sketch
 --------------------
 
-![screenshot1.png](screenshot1.png)
+![screenshot1.png](screenshot1.png "Ready to play sketch")
 
 Sketch playing
 --------------
 
-![screenshot1.png](screenshot1.png)
+![screenshot1.png](screenshot1.png "Sketch is playing")
