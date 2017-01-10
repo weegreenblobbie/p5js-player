@@ -200,8 +200,8 @@ console.log("END p5js-player.js");
 
 function _make_object(widget)
 {
-    var w = widget.getAttribute('width');
-    var h = widget.getAttribute('height');
+    var w = _to_int(widget.getAttribute('width'));
+    var h = _to_int(widget.getAttribute('height'));
 
     var object = document.createElement("object");
 
@@ -272,4 +272,9 @@ function _bind3(callable, arg1, arg2, arg3)
 function _bind4(callable, arg1, arg2, arg3, arg4)
 {
     return function(){callable(arg1, arg2, arg3, arg4);}
+}
+
+function _to_int(x)
+{
+    return x - 0;
 }

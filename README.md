@@ -6,7 +6,7 @@ following features:
 
 * Play & Stop buttons
 * Multiple sketches may be placed on a single webpage or blog post
-* Easy to include in blog posts, sketch appears where placed
+* Easy to include in blog posts, sketch appear where placed
 
 How to use the widget
 =====================
