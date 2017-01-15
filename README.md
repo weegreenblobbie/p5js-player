@@ -8,6 +8,8 @@ following features:
 * Multiple sketches may be placed on a single webpage or blog post
 * Easy to include in blog posts, sketch appear where placed
 
+Live example [here](http://weegreenblobbie.com/?p=240).
+
 How to use the widget
 =====================
 
